@@ -8,7 +8,7 @@ import traceback
 import webbrowser
 import functools
 from pathlib import Path
-from typing import List, Set
+from typing import List
 
 import django
 from django.conf import settings

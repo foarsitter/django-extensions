@@ -122,7 +122,6 @@ class PipCheckerTests(TestCase):
         finally:
             _install_pip(current_pip_version)
 
-
     def test_pipchecker_with_long_up_to_date_requirements(self):
         requirements_path = './requirements.txt'
         out = StringIO()
